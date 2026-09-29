@@ -299,7 +299,7 @@ def load_engine(
     seed: int = 42,
     initial_ability: float = 3.0,
 ) -> AdaptiveEngine:
-    bank = pd.read_csv(csv_path)
+    bank = pd.read_csv(csv_path, encoding="utf-8-sig")
     return AdaptiveEngine(
         bank,
         seed=seed,
