@@ -1,0 +1,618 @@
+﻿question_id,question_text,option_A,option_B,option_C,option_D,correct_option,class_section,subtopic,difficulty,solution_approach,source_page,verification_status,hint_level_1,hint_level_2,solution,solution_source
+27,The roots of the equation x² + x = 2(x − 1) are,imaginary,rational,irrational,equal,A,Class II & III,Nature of roots,1,Bring to standard quadratic form; use discriminant.,5,source-text checked,First bring the equation to standard quadratic form.,Then check the discriminant.,"x² + x = 2(x − 1)
+⇒ x² − x + 2 = 0
+D = (−1)² − 4(1)(2) = −7 < 0
+⇒ Roots are imaginary.
+⇒ Correct option: A",PDF extracted
+28,"The roots of the equation a²x² + (a + b)x − b² = 0 (a, b ≠ 0; a, b ∈ R) are",real and different,real and equal,imaginary,none of these,A,Class II & III,Nature of roots,2,Compute discriminant and determine its sign.,5,source-text checked,Look at the discriminant of the quadratic in x.,"Its discriminant is a sum of non-negative terms, with a,b ≠ 0.","D = (a+b)² − 4(a²)(−b²)
+= (a+b)² + 4a²b² > 0
+⇒ Roots are real and different.
+⇒ Correct option: A",PDF extracted
+29,"If p, q, r are real and p ≠ q, then the roots of the equation (p − q)x² − 5(p + q)x − 2(p − q) = 0 are",real and equal,complex,real and unequal,none of these,C,Class II & III,Nature of roots,2,Evaluate the discriminant; p ≠ q makes the quadratic coefficient nonzero.,5,source-text checked,Check whether the quadratic coefficient can vanish.,Evaluate the discriminant and use p ≠ q.,"A = p−q ≠ 0.
+D = [−5(p+q)]² − 4(p−q)[−2(p−q)]
+= 25(p+q)² + 8(p−q)² > 0
+⇒ Roots are real and unequal.
+⇒ Correct option: C",PDF extracted
+30,"If p, q, r are real and distinct numbers such that p³ + q³ + r³ = 3pqr, then the quadratic equation px² + qx + r = 0 has",real roots,roots lying on either sides of unity,both roots −ve,non-real roots,A,Class II & III,Relation between roots,2,Use p³+q³+r³−3pqr=(p+q+r)(...) and then test x=1.,5,source-text checked,Use the identity for p³+q³+r³−3pqr.,"The given condition implies p+q+r = 0 because p,q,r are distinct.","As stated as a quadratic, p≠0 is implicit.
+p³+q³+r³−3pqr = (p+q+r)(p²+q²+r²−pq−qr−rp)
+= 0
+Since p,q,r are distinct, the second factor is non-zero.
+⇒ p+q+r=0
+For px²+qx+r=0, putting x=1 gives p+q+r=0.
+⇒ x=1 is a real root.
+⇒ The equation has real roots.
+⇒ Correct option: A",PDF extracted; source wording relies on implicit quadratic condition
+31,"If roots of the equation x² − 2cx + ab = 0 are real and unequal, then the roots of the equation x² − 2(a + b)x + (a² + b² + 2c²) = 0 are",real and equal,real and distinct,non-real,cannot be determined,C,Class II & III,Nature of roots,3,"Use c²−ab>0 from the first discriminant, then evaluate the second discriminant.",6,source-text checked,Translate the first equation's root condition into an inequality.,Its discriminant gives c²−ab > 0; now calculate the second discriminant.,"For x²−2cx+ab=0,
+D₁ = 4(c²−ab) > 0
+⇒ c²−ab > 0.
+For x²−2(a+b)x+(a²+b²+2c²)=0,
+D₂ = 4(a+b)² − 4(a²+b²+2c²)
+= −8(c²−ab) < 0
+⇒ Roots are non-real.
+⇒ Correct option: C",PDF extracted; source arithmetic correction (D₂ coefficient)
+32,"If a + b + c = 0 and a,b,c ∈ R, a ≠ c, then the roots of (b + c − a)x² + (c + a − b)x + (a + b − c) = 0 are",real and equal,real and distinct,non-real,none of these,B,Class II & III,Relation between roots,3,Show x=1 is a root and use the product of roots to show the roots are distinct.,6,source-text checked,Try x=1 in the given quadratic.,"After finding one root, use the product of roots.","Assuming the displayed equation is quadratic (as intended), a≠0.
+Since a+b+c=0,
+(b+c−a)+(c+a−b)+(a+b−c)=a+b+c=0
+⇒ x=1 is a root.
+Product of roots = (a+b−c)/(b+c−a)
+Using a+b+c=0, this becomes c/a.
+Since a≠c, c/a≠1.
+⇒ The other root is not 1.
+⇒ Roots are real and distinct.
+⇒ Correct option: B",PDF extracted
+33,"If k ∈ (−∞,−2) ∪ (2,∞), then the roots of x² + 2kx + 4 = 0 are",complex,real and unequal,real and equal,one real and one imaginary,B,Class II & III,Nature of roots,1,Check D = 4k²−16 > 0.,6,source-text checked,Use the discriminant.,The given range of k gives k²>4.,"D = (2k)² − 16 = 4(k²−4).
+Given k∈(−∞,−2)∪(2,∞), k²>4.
+⇒ D>0
+⇒ Roots are real and unequal.
+⇒ Correct option: B",PDF extracted
+34,"If the equation y = px + a√(1+p²) is regarded as a quadratic in p, it will have equal roots if x² + y² is",2a²,0,a²,a²/2,C,Class II & III,Nature of roots,3,Rewrite as a quadratic in p and set its discriminant to zero.,6,source-text checked,First regard the equation as a quadratic in p.,Square the equation and set the discriminant in p equal to zero.,"(y−px)² = a²(1+p²)
+⇒ (x²−a²)p² − 2xyp + (y²−a²)=0
+Since it is regarded as a quadratic in p, x²−a²≠0.
+For equal roots, D=0:
+4x²y² − 4(x²−a²)(y²−a²)=0
+⇒ x²+y²=a²
+⇒ Correct option: C",PDF extracted
+35,"If the roots of the equation a(b−c)x² + b(c−a)x + c(a−b) = 0 are equal, then",2b = a + c,b² = ac,b = 2ac/(a+c),none of these,C,Class II & III,Relation between roots,3,"Observe x=1 is a root; equal roots imply both roots are 1, then use product of roots.",6,source-text checked; visually checked; corrected transcription,Notice that x=1 is a root.,Equal roots mean both roots must be 1; use the product of roots.,"As stated as a quadratic, a(b−c)≠0 is implicit.
+Putting x=1 gives 0, so x=1 is a root.
+Since the roots are equal, both roots are 1.
+Therefore product of roots = 1:
+[c(a−b)]/[a(b−c)] = 1
+⇒ ac−bc = ab−ac
+⇒ 2ac = b(a+c)
+⇒ b = 2ac/(a+c)
+⇒ Correct option: C",PDF extracted; visually checked against source option C
+36,"If α and β are the roots of x² + 3x − 2(x + 7) = 0, then α² + β² is",31,16,13,29,D,Class II & III,Symmetric functions of roots,1,Reduce the quadratic and use (α+β)²−2αβ.,6,source-text checked,Reduce the equation first.,Then use α²+β²=(α+β)²−2αβ.,"x²+3x−2(x+7)=0
+⇒ x²+x−14=0
+Thus α+β=−1, αβ=−14.
+α²+β²=(α+β)²−2αβ
+=1+28=29
+⇒ Correct option: D",Derived: PDF gives the answer key but not a worked derivation for Q36.
+37,"If α and β are the roots of x² + 3x − 2(x + 7) = 0, then α/β + β/α is",−13/2,−29/14,13/2,29/14,B,Class II & III,Symmetric functions of roots,2,Use (α²+β²)/(αβ).,6,source-text checked,Express the ratio symmetrically.,Combine α/β+β/α over the common denominator αβ.,"From Q36, α+β=−1 and αβ=−14.
+α/β+β/α = (α²+β²)/(αβ)
+= 29/(−14)
+= −29/14
+⇒ Correct option: B",Derived: PDF gives the answer key but not a worked derivation for Q37.
+38,"If α and β are the roots of x² + 3x − 2(x + 7) = 0, then α³ + β³ is",29,−43,43,−29,B,Class II & III,Symmetric functions of roots,2,Use (α+β)³−3αβ(α+β).,6,source-text checked,Use the identity for α³+β³.,You already know α+β and αβ from Q36.,"α³+β³=(α+β)³−3αβ(α+β)
+=(−1)³−3(−14)(−1)
+=−1−42=−43
+⇒ Correct option: B",Derived: PDF gives the answer key but not a worked derivation for Q38.
+39,"If α and β are the roots of x² + 3x − 2(x + 7) = 0, then α⁴ + β⁴ is",841,392,449,−392,C,Class II & III,Symmetric functions of roots,3,"Use α²+β² and square it, subtracting 2α²β².",6,source-text checked,Start from α²+β².,Square it and subtract 2α²β².,"α²+β²=29,
+α²β²=(αβ)²=196.
+α⁴+β⁴=(α²+β²)²−2α²β²
+=29²−2(196)
+=841−392=449
+⇒ Correct option: C",Derived: PDF gives the answer key but not a worked derivation for Q39.
+40,"If α and β are the roots of x² + 3x − 2(x + 7) = 0, then α⁵ + β⁵ is",−1247,1247,1051,−1051,D,Class II & III,Symmetric functions of roots,3,Use the recurrence from α²+3α−14=0 and the analogous relation for β.,6,source-text checked,Use the quadratic relation satisfied by α and β.,"From x²+x−14=0, each root satisfies x²=14−x; this gives a recurrence for αⁿ+βⁿ.","Let Sₙ=αⁿ+βⁿ.
+Since α²=14−α and β²=14−β,
+Sₙ=14Sₙ₋₂−Sₙ₋₁.
+S₀=2, S₁=−1.
+⇒ S₂=29
+⇒ S₃=−43
+⇒ S₄=449
+⇒ S₅=14(−43)−449=−1051
+⇒ Correct option: D",Derived: PDF gives the answer key but not a worked derivation for Q40.
+41,"If α and β are the roots of x² + 3x − 2(x + 7) = 0, then |α−β| is",√57,√56,3,√58,A,Class II & III,Nature of roots,2,Use |α−β|²=(α+β)²−4αβ.,7,source-text checked,Use the standard root-difference identity.,First find α+β and αβ from x²+x−14=0.,"|α−β|²=(α+β)²−4αβ
+=(−1)²−4(−14)=57
+⇒ |α−β|=√57
+⇒ Correct option: A",Derived: PDF gives the answer key but not a worked derivation for Q41.
+42,"If α and β are the roots of (x−2)(x−3) + (x−3)(x+1) + (x+1)(x−2) = 0, then the value of ((α+1)(β+1))⁻¹ + ((α−2)(β−2))⁻¹ + ((α−3)(β−3))⁻¹ is",0,1,−2,2,A,Class II & III,Symmetric functions of roots,4,"Find α+β and αβ, then simplify each shifted-root product.",7,source-text checked,"First expand the given quadratic and obtain α+β, αβ.","For each shifted product, use (α+t)(β+t)=αβ+t(α+β)+t².","(x−2)(x−3)+(x−3)(x+1)+(x+1)(x−2)=0
+⇒ 3x²−8x+1=0
+Thus α+β=8/3, αβ=1/3.
+Then:
+(α+1)(β+1)=4 ⇒ reciprocal =1/4
+(α−2)(β−2)=−1 ⇒ reciprocal =−1
+(α−3)(β−3)=4/3 ⇒ reciprocal =3/4
+Sum = 1/4−1+3/4=0
+⇒ Correct option: A",Derived: PDF gives the answer key but not a worked derivation for Q42.
+43,"If α, β be roots of x² − a(x−1) + b = 0, then the value of 1/(α²−aα) + 1/(β²−aβ) + 2/(a+b) is",4/(a+b),1/(a+b),0,2/(a+b),C,Class II & III,Identity,4,Use the quadratic relation α²−aα+b=0 and the same relation for β.,7,source-text checked; visually checked,Use the fact that α and β satisfy their own quadratic equation.,"For a root α, simplify α²−aα using the given equation.","For a root α, α²−aα+a+b=0
+(and a+b≠0 because the given expression is defined).
+⇒ α²−aα=−(a+b)
+Similarly, β²−aβ=−(a+b).
+Therefore
+1/(α²−aα)+1/(β²−aβ)+2/(a+b)
+=−1/(a+b)−1/(a+b)+2/(a+b)
+=0
+⇒ Correct option: C",Derived: PDF gives the answer key but not a worked derivation for Q43.
+44,"If sum of the roots of the equation ax² + bx + c = 0 is equal to the sum of their squares, then",2ac = ab + c,2ac = b(a+b),a²+b² = c²,a²+b² = a+b,B,Class II & III,Relation between roots,3,Set α+β=α²+β² and substitute α+β and αβ from Vieta.,7,source-text checked,Translate both sums using Vieta.,Set α+β=α²+β² and use α²+β²=(α+β)²−2αβ.,"Let α+β=−b/a and αβ=c/a.
+Given α+β=α²+β²,
+−b/a = b²/a² − 2c/a.
+Multiplying by a²:
+−ab=b²−2ac
+⇒ 2ac=b(a+b)
+⇒ Correct option: B",Derived: PDF gives the answer key but not a worked derivation for Q44.
+45,"If sin α, cos α are the roots of the equation ax² + bx + c = 0, then",a²+b²−2ac=0,a²−b²+2ac=0,(a+c)²=b²+c²,both (B) and (C),D,Class II & III,Identity,3,Use sin²α+cos²α=1 together with Vieta.,7,source-text checked,Use the fact that sin²α+cos²α=1.,Apply Vieta to sin α and cos α.,"Let the roots be sin α and cos α.
+Their sum = −b/a and product = c/a.
+Since sin²α+cos²α=1,
+(α+β)²−2αβ=1
+⇒ b²/a²−2c/a=1
+⇒ a²−b²+2ac=0.
+Also this rearranges to (a+c)²=b²+c².
+⇒ Both (B) and (C) are true.
+⇒ Correct option: D",Derived: PDF gives the answer key but not a worked derivation for Q45.
+46,"If α, β be the roots of the equation p(x²+n²) + pnx + qn²x² = 0, then the value of p(α²+β²) + pαβ + qα²β² is",α+β,0,p+q,α+β+p+q,B,Class II & III,Identity,4,Use the given quadratic equation and Vieta relations to simplify the symmetric expression.,7,source-text checked,Write the given equation in standard quadratic form and use Vieta.,Let A=p+qn²; express α+β and αβ in terms of A.,"The equation is
+(p+qn²)x²+pnx+pn²=0.
+Since it is a quadratic, A=p+qn²≠0.
+Let A=p+qn².
+Then α+β=−pn/A,
+αβ=pn²/A.
+Required expression:
+p(α²+β²)+pαβ+qα²β²
+=p[(α+β)²−2αβ]+pαβ+q(αβ)²
+=p(α+β)²−pαβ+q(αβ)²
+= p³n²/A² − p²n²/A + qp²n⁴/A²
+= p²n²/A²[p−A+qn²]
+=0.
+⇒ Correct option: B",Derived: PDF gives the answer key but not a worked derivation for Q46.
+47,"If roots of equation x²−5x+16=0 are α,β and roots of equation x²+px+q=0 are α²+β² and (αβ/2), then",p=1 and q=−56,p=−1 and q=−56,p=1 and q=56,p=−1 and q=56,B,Class II & III,Formation of equations,3,Find α+β and αβ; form the new quadratic from its two specified roots.,7,source-text checked,Find the sum and product of the original roots.,Then calculate α²+β² and αβ/2 and use them as the new roots.,"For x²−5x+16=0:
+α+β=5, αβ=16.
+α²+β²=25−32=−7,
+αβ/2=8.
+New roots are −7 and 8.
+Their sum=1 and product=−56.
+Therefore x²−x−56=0
+⇒ p=−1, q=−56.
+⇒ Correct option: B",PDF extracted
+48,"The value of (α−2)²(β−2)², where α and β are roots of x²−2x+3=0, is",3,9,27,81,B,Class II & III,Symmetric functions of roots,2,"Use α²−2α=−3 and β²−2β=−3, then multiply.",7,source-text checked,Use the original quadratic to simplify α−2 and β−2.,"From α²−2α+3=0, express α−2 in terms of 1/α.","α²−2α=−3
+⇒ α−2=−3/α.
+Similarly β−2=−3/β.
+Therefore
+(α−2)²(β−2)² = 81/(αβ)².
+For x²−2x+3=0, αβ=3.
+⇒ 81/9=9
+⇒ Correct option: B",PDF extracted
+49,"If α, β are roots of 3x²−6x+4=0, then (α²/β + β²/α) + (α/β + β/α) + 2(1/α + 1/β) + 3αβ is",8,10,12,16,A,Class II & III,Symmetric functions of roots,5,Rewrite each term using α+β=2 and αβ=4/3.,8,visually checked,Convert every ratio into expressions involving α+β and αβ.,Use α+β=2 and αβ=4/3 from the quadratic.,"For 3x²−6x+4=0,
+α+β=2, αβ=4/3.
+Rewrite
+α²/β+β²/α=(α³+β³)/(αβ),
+α/β+β/α=(α²+β²)/(αβ),
+and 1/α+1/β=(α+β)/(αβ).
+Now
+α²+β²=4−8/3=4/3,
+α³+β³=8−3(4/3)(2)=0.
+Hence required value = 0 + 1 + 2(3/2) + 4 = 8.
+⇒ Correct option: A",PDF extracted
+50,"Let α, β be the roots of x²+px+q=0 and γ, δ be the roots of x²+px+r=0, then ((α−γ)(α−δ))/((β−γ)(β−δ)) is equal to",1,q,r,q+r,A,Class II & III,Relation between roots,4,Evaluate each quadratic at α and β and take the ratio.,8,source-text checked,"Evaluate the numerator and denominator using the equations having γ,δ as roots.","For α, use α²+pα+q=0 and γ+δ=−p, γδ=r.","For α,
+(α−γ)(α−δ)=α²−(γ+δ)α+γδ
+=α²+pα+r
+=(−q)+r=r−q.
+Similarly for β,
+(β−γ)(β−δ)=r−q.
+Therefore the ratio is 1.
+⇒ Correct option: A",PDF extracted
+51,"If difference of roots of the equation x²−px+q=0 is 1, then p²+4q² equals",2q+3,(1−2q)²,(1+2q)²,2q−3,C,Class II & III,Relation between roots,2,Use (α−β)²=(α+β)²−4αβ=1.,8,visually checked,Use the given difference of roots.,Vieta gives α+β=p and αβ=q.,"(α−β)²=1
+⇒ (α+β)²−4αβ=1
+⇒ p²−4q=1
+⇒ p²=1+4q.
+Therefore
+p²+4q²=1+4q+4q²=(1+2q)².
+⇒ Correct option: C",PDF extracted
+52,"Roots of equation px²−2(p+2)x+3p=0 are α and β (α>β). If α−β=2, then the value of p (>0) is",1,2,3,4,B,Class II & III,Nature of roots,3,Use Vieta and the root-difference relation.,8,source-text checked,Use the formula for the difference of roots.,Set the square of the difference equal to 4 and use Vieta.,"For px²−2(p+2)x+3p=0,
+α+β=2(p+2)/p,
+αβ=3.
+Given α−β=2:
+4=(α+β)²−4αβ
+=4(p+2)²/p²−12.
+⇒ (p+2)²=4p²
+⇒ 3p²−4p−4=0
+⇒ (3p+2)(p−2)=0.
+Since p>0, p=2.
+⇒ Correct option: B",PDF extracted
+53,If α and β are the roots of the equation 2x²+3x+6=0 then the value of (2α²+6)/(2α+3) + (2β²+6)/(2β+3) is,2/3,3/2,−15/8,−3/2,C,Class II & III,Symmetric functions of roots,4,Use the quadratic relation to simplify each rational expression before applying Vieta.,8,visually checked,Use the quadratic equation to simplify each fraction before adding.,"For a root α, 2α²+3α+6=0.","For α,
+2α²+6=−3α.
+Thus the term is −3α/(2α+3).
+Similarly for β.
+Using α+β=−3/2 and αβ=3,
+α/(2α+3)+β/(2β+3)
+=[4αβ+3(α+β)]/[(2α+3)(2β+3)]
+=[12−9/2]/[12−9+9]
+=(15/2)/12=5/8.
+Multiplying by −3 gives −15/8.
+⇒ Correct option: C",PDF extracted
+54,"If α, β are the roots of x²−px+1=0 and γ, δ are the roots of x²+qx+1=0, then (α−γ)(β−γ)(α+δ)(β+δ) is",p+q,p−q,p²+q²,q²−p²,D,Class II & III,Relation between roots,4,Evaluate the two quadratics at γ and −δ and use their root relations.,8,source-text checked,Group the factors involving γ and δ.,Use the equations satisfied by γ and δ to simplify each pair.,"(α−γ)(β−γ)=αβ−γ(α+β)+γ²
+=1−pγ+γ².
+Since γ²+qγ+1=0,
+this becomes −(p+q)γ.
+Similarly,
+(α+δ)(β+δ)=1+pδ+δ²=(p−q)δ.
+Multiplying:
+−(p+q)(p−q)γδ.
+Since γδ=1,
+= q²−p².
+⇒ Correct option: D",PDF extracted
+55,"If α and β are the roots of the quadratic equation x²+px+q=0 and γ, δ are the roots of x²+px−r=0, then (α−γ)(α−δ) is equal to",q+r,q−r,−(q+r),−(p+q+r),C,Class II & III,Relation between roots,3,Substitute α into the second quadratic and use α²+pα=−q.,8,source-text checked,"Substitute α into the quadratic having roots γ,δ.",Use γ+δ=−p and γδ=−r.,"(α−γ)(α−δ)=α²−(γ+δ)α+γδ
+=α²+pα−r.
+But α²+pα+q=0
+⇒ α²+pα=−q.
+Therefore the expression = −q−r=−(q+r).
+⇒ Correct option: C",PDF extracted
+56,The sum of all the value of m for which the roots x₁ and x₂ of x²−2mx+m=0 satisfy x₁³+x₂³=x₁²+x₂² is,3/4,1,9/4,5/4,D,Class II & III,Symmetric functions of roots,4,Use x₁+x₂=2m and x₁x₂=m; solve the resulting cubic condition.,8,visually checked,Use Vieta for x²−2mx+m=0.,Replace x₁+x₂ and x₁x₂ in the given power-sum identity.,"x₁+x₂=2m,
+x₁x₂=m.
+Given x₁³+x₂³=x₁²+x₂².
+⇒ (x₁+x₂)³−3x₁x₂(x₁+x₂)
+=(x₁+x₂)²−2x₁x₂
+⇒ 8m³−6m²=4m²−2m
+⇒ 2m(4m²−5m+1)=0
+⇒ m=0, 1, 1/4.
+Sum = 0+1+1/4=5/4.
+⇒ Correct option: D",PDF extracted
+57,"If the roots of the equation 1/(x+p) + 1/(x+q) = 1/r are equal in magnitude but opposite in sign, then product of the roots will be",(p²+q²)/2,−(p²+q²)/2,(p²−q²)/2,−(p²−q²)/2,B,Class II & III,Nature of roots,4,Convert to a quadratic; opposite roots imply sum of roots is zero.,9,visually checked,First convert the reciprocal equation into a quadratic.,Equal magnitude and opposite sign means the sum of the roots is zero.,"1/(x+p)+1/(x+q)=1/r
+⇒ x²+(p+q−2r)x+(pq−pr−qr)=0.
+Let the roots be α,β.
+Given α+β=0:
+p+q−2r=0
+⇒ r=(p+q)/2.
+Product = pq−pr−qr
+=pq−(p+q)²/2
+=−(p²+q²)/2.
+⇒ Correct option: B",PDF extracted
+58,"If one root of the equation a(b−c)x² + b(c−a)x + c(a−b)=0 is 1, then its other root is",a(b−c)/(b(c−a)),c(a−b)/(a(b−c)),b(c−a)/(a(b−c)),None of these,B,Class II & III,Relation between roots,3,Use product of roots from Vieta and the known root 1.,9,visually checked,Use the product of roots and the known root 1.,"For the given quadratic, product = constant/coefficient of x².","As stated as a quadratic, a(b−c)≠0 is implicit.
+Let roots be α,β and α=1.
+αβ = c/a = c(a−b)/[a(b−c)].
+Since α=1,
+β = c(a−b)/[a(b−c)].
+⇒ Correct option: B",PDF extracted; source wording relies on implicit quadratic condition
+59,"The ratio of the roots of the equation x²+kx+(k+2)=0 is 2, then k can be",3,−6,3/2,−3/2,D,Class II & III,Relation between roots,4,Use α/β=2 together with (α+β)²/(α−β)².,9,source-text checked,Let the roots be α and β with α/β=2.,Use (α+β)²/(α−β)² = (2+1)²/(2−1)² = 9.,"For x²+kx+(k+2)=0,
+α+β=−k,
+αβ=k+2.
+Since α/β=2,
+(α+β)²/(α−β)²=9.
+Thus
+k²/[k²−4(k+2)]=9.
+⇒ 8k²−36k−72=0
+⇒ k=6 or k=−3/2.
+The PDF's printed key marks option D (−3/2), although its own worked calculation gives both values.
+⇒ Source inconsistency should be flagged in the demo.",PDF extracted + source inconsistency flagged
+60,"For what value of a, the difference of the roots of the equation 2x²−(a+1)x+(a−1)=0 is equal to their product?",0,1,−1,2,D,Class II & III,Relation between roots,3,"Use α+β=(a+1)/2, αβ=(a−1)/2 and the root-difference formula.",9,source-text checked,Use Vieta for the sum and product of the roots.,Then express |α−β| using (α−β)².,"α+β=(a+1)/2,
+αβ=(a−1)/2.
+Hence
+|α−β| = √[(α+β)²−4αβ]
+= |a−3|/2.
+Given |α−β|=αβ=(a−1)/2,
+|a−3|=a−1.
+Solving gives a=2.
+⇒ Correct option: D",PDF extracted
+61,"If the difference between the roots of the equation x²+ax+1=0 is less than √5, then the set of possible values of a is","(−3,3)","(−3,∞)","(3,∞)","(−∞,−3)",A,Class II & III,Nature of roots,2,Use (α−β)²=a²−4<5.,9,source-text checked,Use the square of the difference of roots.,"For x²+ax+1=0, (α−β)²=a²−4.","(α−β)²<5
+⇒ a²−4<5
+⇒ a²<9
+⇒ −3<a<3.
+⇒ Correct option: A",PDF extracted
+62,"If one root of the equation x²+px+12=0 is 4, while the equation x²+px+q=0 has equal roots, then the value of q is",49/4,12,3,4,A,Class II & III,Relation between roots,2,Find p from the known root; equal roots require discriminant zero.,9,source-text checked,Use the known root to find p.,Then impose the equal-root condition on x²+px+q=0.,"Since 4 is a root of x²+px+12=0,
+16+4p+12=0
+⇒ p=−7.
+For x²−7x+q=0 to have equal roots,
+D=49−4q=0
+⇒ q=49/4.
+⇒ Correct option: A",PDF extracted
+63,"If (1−p) is a root of quadratic equation x²+px+(1−p)=0, then its roots are","0,1","−1,1","0,−1","−1,2",C,Class II & III,Relation between roots,2,"Substitute 1−p into the equation to obtain p=1, then factor.",9,source-text checked,Substitute the given root 1−p.,The substitution simplifies to a condition on p.,"(1−p)²+p(1−p)+(1−p)=0
+⇒ 1−p=0
+⇒ p=1.
+Equation becomes
+x²+x?  With p=1: x²+x+(1−1)=0
+⇒ x(x+1)=0.
+⇒ Roots are 0 and −1.
+⇒ Correct option: C",PDF extracted
+64,"The value of a for which one root of the quadratic equation (a²−5a+3)x²+(3a−1)x+2=0 is twice as large as the other, is",2/3,−2/3,1/3,−1/3,A,Class II & III,Relation between roots,4,Let the roots be t and 2t and apply Vieta.,10,source-text checked,Let the two roots be t and 2t.,Use the ratio of (sum)² to the product from Vieta.,"Let roots be t and 2t.
+Then (α+β)²/(αβ)=9/2.
+For the given quadratic,
+(α+β)²/(αβ)=(3a−1)²/[2(a²−5a+3)].
+Therefore
+(3a−1)²=9(a²−5a+3)
+⇒ 13(3a−2)=0
+⇒ a=2/3.
+⇒ Correct option: A",Derived: PDF gives the answer key but not a worked derivation for Q64.
+65,If 2b=a+c and one root of ax²+bx+c=0 is 2 then other root must be,5/2,−5/2,−5/4,5/4,C,Class II & III,Relation between roots,3,"Use the known root in the quadratic together with 2b=a+c, then use the product of roots.",10,source-text checked,Use the known root x=2 in the quadratic.,Combine the resulting equation with 2b=a+c.,"As stated as a quadratic, a≠0 is implicit.
+Since 2 is a root:
+4a+2b+c=0.
+Together with 2b=a+c,
+4a+(a+c)+c=0
+⇒ 5a+2c=0
+⇒ c/a=−5/2.
+Product of roots = c/a.
+If the other root is β,
+2β=−5/2
+⇒ β=−5/4.
+⇒ Correct option: C",PDF extracted; source wording relies on implicit quadratic condition
+66,"The quadratic equation x²+mx+n=0 has roots which are twice those of x²+px+m=0 and m,n,p≠0, then the value of n/p is",4,1/8,8,1/4,C,Class II & III,Formation of equations,4,Relate the sums and products of the original and doubled roots.,10,source-text checked,"Let α,β be the roots of the second quadratic.","Compare their sum/product with the roots 2α,2β of the first.","For x²+px+m=0,
+α+β=−p,
+αβ=m.
+The other equation has roots 2α,2β, so
+2(α+β)=−m,
+4αβ=n.
+Thus m=2p and n=4m=8p.
+⇒ n/p=8.
+⇒ Correct option: C",PDF extracted
+67,If α and β are the roots of the equation x²−ax+b=0 then the value of (α−a)⁻⁴+(β−a)⁻⁴ is,2a⁴/b⁴,(a⁴−4a²b+2b²)/b⁴,(a⁴−4a²b+3b²)/b⁴,(a⁴−4a²b²+b²)/b⁴,B,Class II & III,Symmetric functions of roots,5,"Use α−a=−β and β−a=−α, then simplify reciprocal fourth powers.",10,visually checked,Use α+β=a and αβ=b.,Notice that α−a=−β and β−a=−α.,"Since α+β=a,
+α−a=−β,
+β−a=−α.
+Therefore
+(α−a)⁻⁴+(β−a)⁻⁴
+=1/β⁴+1/α⁴
+=(α⁴+β⁴)/(αβ)⁴.
+Now
+α⁴+β⁴=[(α+β)²−2αβ]²−2α²β²
+=(a²−2b)²−2b²
+=a⁴−4a²b+2b².
+Since (αβ)⁴=b⁴,
+required value=(a⁴−4a²b+2b²)/b⁴.
+⇒ Correct option: B",PDF extracted
+68,If the difference of the roots of the equation x²+ax+b=0 is equal to the difference of the roots of the equation x²+bx+a=0 then,a+b=4,a+b=−4,a−b=4,a−b=−4,B,Class II & III,Nature of roots,3,Equate the squared root differences: a²−4b=b²−4a.,10,source-text checked,Square the root differences in both equations.,"For x²+Ax+B=0, the squared root difference is A²−4B.","First equation:
+(α−β)²=a²−4b.
+Second equation:
+(γ−δ)²=b²−4a.
+Equating,
+a²−4b=b²−4a
+⇒ (a−b)(a+b+4)=0.
+For the non-identical intended case, a+b=−4.
+⇒ Correct option: B
+Note: as printed, a=b also satisfies the equality, so the source question appears to omit a restriction.",PDF extracted + source inconsistency flagged
+69,"If one root of the equation x²+px+q=0 is the square of the other, then",p³+q²−q(3p+1)=0,p³+q²+q(1+3p)=0,p³+q²+q(3p−1)=0,p³+q²+q(1−3p)=0,D,Class II & III,Relation between roots,5,Set the roots as α and α²; use Vieta and eliminate α.,10,source-text checked,Represent the two roots as t and t².,"Use their sum and product to express p and q in terms of t, then eliminate t.","Let roots be α and α².
+Then
+α+α²=−p,
+α³=q.
+So α(1+α)=−p and α³=q.
+Cubing α(1+α)=−p and using α³=q gives
+p³+q²+q(1−3p)=0.
+⇒ Correct option: D",PDF extracted
+70,"Let α, β be the roots of x²−px+r=0 and α/2, 2β be roots of x²−qx+r=0, then r =",(2/3)(2p−q)(2q−p),(2/9)(q−p)(2q−p),(2/9)(q−2p)(2q−p),(2/9)(2p−q)(2q−p),D,Class II & III,Formation of equations,4,"Use α+β=p, αβ=r, and α/2+2β=q; solve for α and β.",10,visually checked,Write the two Vieta relations for the first equation.,"Use α+β=p, αβ=r and α/2+2β=q to solve for α,β.","α+β=p,
+α/2+2β=q.
+Multiply the second by 2:
+α+4β=2q.
+Subtract α+β=p:
+3β=2q−p
+⇒ β=(2q−p)/3.
+Then
+α=p−β=(2p−q)/3.
+Therefore
+r=αβ
+=[(2p−q)(2q−p)]/9.
+⇒ Correct option: D",PDF extracted
+71,"Let α and β be the roots of x²−6x−2=0 with α>β. If aₙ=αⁿ−βⁿ for n≥1, then the value of (a₁₀−2a₈)/(2a₉) is",1,2,3,4,C,Class II & III,Symmetric functions of roots,4,"Factor α⁸ and β⁸ and use α+β=6, αβ=−2.",11,visually checked,Factor α⁸ and β⁸ from the numerator.,Use α²−2=6α and β²−2=6β.,"Given α+β=6, αβ=−2.
+(a₁₀−2a₈)/(2a₉)
+=[α⁸(α²−2)−β⁸(β²−2)]/[2(α⁹−β⁹)]
+=[6α⁹−6β⁹]/[2(α⁹−β⁹)]
+=3.
+⇒ Correct option: C",PDF extracted
+72,"Let α and β be the roots of equation px²+qx+r=0, p≠0. If p,q,r are in A.P. and 1/α+1/β=4, then the value of |α−β| is",√61/9,2√17/9,√34/9,2√13/9,D,Class II & III,Relation between roots,4,"Use 2q=p+r and (α+β)/(αβ)=4, then compute the root difference.",11,visually checked,Translate 1/α+1/β=4 using Vieta.,"Since 1/α+1/β=(α+β)/(αβ), combine it with 2q=p+r.","1/α+1/β=(α+β)/(αβ)=−q/r=4
+⇒ q=−4r.
+Also 2q=p+r
+⇒ p=2q−r=−9r.
+Thus
+α+β=−q/p=−4/9,
+αβ=r/p=−1/9.
+Therefore
+|α−β|=√[(α+β)²−4αβ]
+=√(16/81+4/9)
+=√52/9=2√13/9.
+⇒ Correct option: D",PDF extracted
+73,If α is a root of x²−7x−4=0 then α³−53α =,12,25,28,32,C,Class II & III,Identity,2,Reduce α² and then α³ using the quadratic equation.,11,source-text checked,Use the quadratic equation to replace α².,Multiply α²−7α−4=0 by α and eliminate α².,"α²−7α−4=0
+⇒ α²=7α+4.
+Multiply by α:
+α³=7α²+4α
+=7(7α+4)+4α
+=53α+28.
+Therefore
+α³−53α=28.
+⇒ Correct option: C",PDF extracted
+74,"Given α+β=2 and α⁴+β⁴=272, then the quadratic equation whose roots are α and β is x²+px+q=0; find q+4p when q>0.",2,24,8,20,C,Class II & III,Formation of equations,4,Use α+β and αβ; solve the equation for αβ from α⁴+β⁴=272 and choose q>0.,11,source-text checked,Use α+β=2 and let t=αβ.,Express α⁴+β⁴ in terms of t.,"Let t=αβ.
+α²+β²=(α+β)²−2αβ=4−2t.
+Given
+272=(α²+β²)²−2(αβ)²
+=(4−2t)²−2t².
+⇒ t=16 or −8.
+Since q=t>0,
+t=16.
+The equation is x²−2x+16=0, so p=−2,q=16.
+q+4p=16−8=8.
+⇒ Correct option: C",PDF extracted
+75,"Let p and q be real numbers such that p≠0, p³≠q and p³≠−q. If α and β are non-zero complex numbers satisfying α+β=−p and α³+β³=q, then a quadratic equation having α/β and β/α as its roots is",(p³+q)x²−(p³+2q)x+(p³+q)=0,(p³+q)x²−(p³−2q)x+(p³+q)=0,(p³−q)x²−(5p³−2q)x+(p³−q)=0,(p³−q)x²−(5p³+2q)x+(p³+q)=0,B,Class II & III,Formation of equations,5,"Find αβ from α³+β³=(α+β)³−3αβ(α+β), then find sum and product of α/β and β/α.",11,source-text checked,First find αβ from α³+β³.,Then calculate the sum and product of α/β and β/α.,"α+β=−p.
+α³+β³=(α+β)³−3αβ(α+β)=q
+⇒ −p³+3pαβ=q
+⇒ αβ=(p³+q)/(3p).
+Let u=α/β and v=β/α.
+uv=1.
+Also
+u+v=(α²+β²)/(αβ)=((α+β)²−2αβ)/(αβ)
+=(p³−2q)/(p³+q).
+Therefore
+x²−[(p³−2q)/(p³+q)]x+1=0.
+Multiplying through:
+(p³+q)x²−(p³−2q)x+(p³+q)=0.
+⇒ Correct option: B",PDF extracted
+76,"If α, β are the roots of ax²+bx+c=0, then the quadratic equation whose roots are 2α, 2β is",ax²+2bx+2c=0,ax²+2bx+4c=0,2ax²+bx+2c=0,ax²+4bx+2c=0,B,Class II & III,Formation of equations,2,Apply the root-scaling transformation x→x/2.,11,source-text checked,Think about how an equation changes when every root is multiplied by 2.,Use the sum and product of 2α and 2β.,"For roots 2α,2β,
+new equation:
+x²−2(α+β)x+4αβ=0.
+For ax²+bx+c=0,
+α+β=−b/a,
+αβ=c/a.
+Thus
+x²+(2b/a)x+4c/a=0.
+Multiplying by a:
+ax²+2bx+4c=0.
+⇒ Correct option: B",PDF extracted
+77,If α and β are the roots of the equation x²−x+2=0 then the equation with least degree whose roots are α³+β³ and α³β+αβ³ is,x²+11x+30=0,x²−11x+30=0,x²+x−2=0,x²+11x−30=0,A,Class II & III,Formation of equations,5,"Compute the two transformed roots using α+β=1 and αβ=2, then form their quadratic.",12,visually checked,Find the two transformed roots using α+β=1 and αβ=2.,"Compute their sum and product, then form the quadratic.","For x²−x+2=0,
+α+β=1, αβ=2.
+First transformed root:
+α³+β³=1³−3(2)(1)=−5.
+Second:
+α³β+αβ³=αβ(α²+β²)
+=2[(α+β)²−2αβ]
+=2(1−4)=−6.
+Equation with roots −5,−6:
+x²+11x+30=0.
+⇒ Correct option: A",PDF extracted
+78,"If α and β are the roots of ax²+bx+c=0 and γ, δ are those of lx²+mx+n=0, then the quadratic equation whose roots are αγ+βδ and αδ+βγ is",a²l²x²−ablmx+(b²−2ac)nl+(m²−2ln)ca=0,x²−ablm+(b²−2ac)+(m²−2ln)=0,m²b²x²−(b²−2ac)x+(m²−2ln)=0,a²l²x²−ablmx+(b²−2ac)nl+(m²−2ln)la=0,A,Class II & III,Formation of equations,4,Find the sum and product of the two transformed roots using Vieta for both quadratics.,12,visually checked,Find the sum and product of the two transformed roots.,"Use Vieta separately for α,β and γ,δ.","Let u=αγ+βδ and v=αδ+βγ.
+Sum:
+u+v=(α+β)(γ+δ)=(-b/a)(-m/l)=bm/(al).
+Product:
+uv=(α²+β²)γδ+(γ²+δ²)αβ
+=[(b²−2ac)/a²](n/l)+[(m²−2ln)/l²](c/a).
+Multiplying the monic equation by a²l² gives:
+a²l²x²−ablmx+(b²−2ac)nl+(m²−2ln)ca=0.
+⇒ Correct option: A",PDF extracted
+79,"Quadratic equation whose roots are (α+1/β) and (β+1/α), where α,β are roots of ax²+bx+c=0, is",x²+(a²+c²)x²+a²c²=0,a²x² + [b/(c+a)]x + 1=0,acx²+b(a+c)x+(a+c)²=0,x²+(a+c)x+ac=0,C,Class II & III,Formation of equations,5,Compute the sum and product of the two transformed roots using α+β=−b/a and αβ=c/a.,12,visually checked,Find the sum and product of α+1/β and β+1/α.,Use α+β=−b/a and αβ=c/a.,"Let u=α+1/β and v=β+1/α.
+Since 1/β=α/(αβ),
+u+v=(α+β)+(α+β)/(αβ)
+=−b/a−b/c
+=−b(a+c)/(ac).
+Also
+uv=αβ+1+1+1/(αβ)
+=c/a+2+a/c
+=(a+c)²/(ac).
+Therefore
+x²+[b(a+c)/(ac)]x+(a+c)²/(ac)=0.
+Multiplying by ac:
+acx²+b(a+c)x+(a+c)²=0.
+⇒ Correct option: C",PDF extracted
+80,"Quadratic equation whose roots are 1/(aα+b) and 1/(aβ+b), where α,β are roots of ax²+bx+c=0, is",ax²−bx+1=0,acx²−bx+1=0,x²−acx+b²=0,cx²−bx+a=0,B,Class II & III,Formation of equations,4,"Express the transformed roots through α,β and use Vieta to obtain their sum and product.",12,visually checked,Express 1/(aα+b) and 1/(aβ+b) through αβ and α+β.,Find their sum and product using Vieta.,"Let u=1/(aα+b), v=1/(aβ+b).
+Product:
+uv=1/[(aα+b)(aβ+b)]
+=1/[a²αβ+ab(α+β)+b²]
+=1/[ac−b²+b²]=1/(ac).
+For the sum,
+(aα+b)(aβ+b)=ac.
+Numerator of u+v:
+a(α+β)+2b=−b+2b=b.
+Thus u+v=b/(ac).
+Hence
+x²−[b/(ac)]x+1/(ac)=0
+⇒ acx²−bx+1=0.
+⇒ Correct option: B",PDF extracted
+81,"If α≠β but α²=5α−3 and β²=5β−3, then equation whose roots are β/α and α/β is",3x²−25x+3=0,3x²+5x−3=0,3x²−5x+3=0,3x²−19x+3=0,D,Class II & III,Formation of equations,4,"Recognize α,β as roots of x²−5x+3=0 and compute the sum/product of reciprocal ratios.",13,source-text checked,First identify the quadratic satisfied by α and β.,Then find the sum and product of α/β and β/α.,"α²=5α−3 and β²=5β−3
+⇒ α,β are roots of x²−5x+3=0.
+Thus α+β=5, αβ=3.
+Let u=β/α, v=α/β.
+uv=1.
+u+v=(α²+β²)/(αβ)
+=[25−6]/3=19/3.
+Therefore
+x²−(19/3)x+1=0
+⇒ 3x²−19x+3=0.
+⇒ Correct option: D",PDF extracted
+82,"Equation whose roots are P=α³−3α²+5α−2 and Q=β³−β²+β+5, where α and β are roots of x²−2x+3=0, is",x²+3x+2=0,x²−3x−2=0,x²−3x+2=0,None of these,C,Class II & III,Formation of equations,4,"Reduce P and Q using α²−2α+3=0 and β²−2β+3=0, then form the quadratic.",13,visually checked,Use α²−2α+3=0 to reduce the expressions P and Q.,Reduce each transformed root to a constant.,"For α,
+α²=2α−3,
+α³=2α²−3α.
+Hence
+P=α³−3α²+5α−2=1.
+For β,
+β³−β²+β+5=2.
+Thus transformed roots are 1 and 2.
+Equation:
+x²−3x+2=0.
+⇒ Correct option: C",PDF extracted
+83,"If the roots of the equation 2x²−3x+5=0 are reciprocals of the roots of the equation ax²+bx+2=0, then",a=2 and b=3,a=2 and b=−3,a=5 and b=−3,a=5 and b=3,C,Class II & III,Formation of equations,2,Form the reciprocal-root equation 5x²−3x+2=0 and compare coefficients.,13,visually checked,Use the reciprocal-root transformation.,"If α,β are roots of a quadratic, reciprocals are obtained by reversing the coefficients.","For 2x²−3x+5=0, the reciprocal roots satisfy
+5x²−3x+2=0.
+Comparing with ax²+bx+2=0:
+a=5,
+b=−3.
+⇒ Correct option: C",PDF extracted
+84,"The equation whose roots are the squares of the roots of the equation ax²+bx+c=0, is",a²x²+b²x+c²=0,a²x²−(b²−4ac)x+c²=0,a²x²−(b²−2ac)x+c²=0,a²x²+(b²−ac)x+c²=0,C,Class II & III,Formation of equations,4,Use the standard transformation for squared roots via α²+β² and α²β².,13,visually checked,Find α²+β² and α²β² using Vieta.,"Then form the quadratic whose roots are α²,β².","For ax²+bx+c=0,
+α+β=−b/a,
+αβ=c/a.
+Thus
+α²+β²=(α+β)²−2αβ
+=(b²−2ac)/a²,
+α²β²=c²/a².
+Hence
+x²−[(b²−2ac)/a²]x+c²/a²=0.
+Multiplying by a²:
+a²x²−(b²−2ac)x+c²=0.
+⇒ Correct option: C",PDF extracted
+85,"The equation (a²−a−2)x²+(a²−4)x+(a²−3a+2)=0 will have more than two solutions, if a equals",2,3,−2,Not possible,A,Class II & III,Identity,3,For more than two solutions the quadratic must become an identity; set all three coefficients to zero.,13,visually checked,More than two solutions means the quadratic must become an identity.,Set all three coefficients equal to zero.,"For infinitely many solutions,
+a²−a−2=0,
+a²−4=0,
+a²−3a+2=0.
+From a²−4=0, a=±2.
+Testing gives a=2 satisfies all three equations.
+⇒ Correct option: A",PDF extracted
+86,"If the equation a(x−1)²+b(x²−3x+2)+x−a²=0 is satisfied for all x∈R then the number of ordered pairs (a,b) can be",0,1,2,infinite,B,Class II & III,Identity,4,"Equate coefficients of x², x and the constant term to zero.",13,visually checked,"Because the equation holds for every real x, compare coefficients.","Set the coefficients of x², x and the constant term equal to zero.","Expand:
+a(x−1)²+b(x²−3x+2)+x−a²=0.
+Coefficients give
+x²: a+b=0
+x: −2a−3b+1=0
+constant: a+2b−a²=0.
+From a+b=0 and −2a−3b+1=0:
+a=−1,
+b=1.
+These satisfy the constant equation.
+⇒ One ordered pair.
+⇒ Correct option: B",PDF extracted
+87,"Sachin and Rahul attempted to solve a quadratic equation. Sachin made a mistake in writing down the constant term and ended up in roots {4,3}. Rahul made a mistake in writing down coefficient of x to get roots {3,2}. The correct roots of the equation are","−4,−3","6,1","4,3","−6,−1",B,Class II & III,Relation between roots,3,The correct sum of roots comes from Rahul's unchanged x-coefficient; the correct product comes from Sachin's unchanged x² coefficient and corrected constant term relation.,13,visually checked,Use what remained correct in each student's equation.,Sachin's error was in the constant term; Rahul's was in the x-coefficient.,"Sachin obtained roots 4,3, so their sum is 7; therefore the correct x-coefficient gives sum 7.
+Rahul obtained roots 3,2, so their product is 6; therefore the correct constant term gives product 6.
+Thus correct roots have
+sum=7,
+product=6.
+⇒ Roots are 6 and 1.
+⇒ Correct option: B",PDF extracted
+88,"If equation x²+2(a²+1)x+(a²−14a+48)=0 possesses roots of opposite signs and a∈N, then number of values of a, 1≤a≤10 is",1,2,4,5,A,Class II & III,Nature of roots,2,Opposite signs require product of roots <0; test integer a from 1 to 10.,13,visually checked,"For roots of opposite signs, look at their product.","Since the leading coefficient is positive, opposite signs require c<0.","Product of roots = a²−14a+48.
+Opposite signs ⇒ product <0.
+(a−6)(a−8)<0
+⇒ 6<a<8.
+For a∈N and 1≤a≤10,
+only a=7.
+⇒ Number of values =1.
+⇒ Correct option: A",PDF extracted
+89,The real values of a for which the quadratic equation 2x²−(a³+8a−1)x+a²−4a=0 possesses roots of opposite signs is given by,a>5,0<a<4,a>0,a>7,B,Class II & III,Nature of roots,3,"For a positive leading coefficient, opposite signs require f(0)<0; solve a²−4a<0.",14,visually checked,Use the product-of-roots condition.,Opposite signs require the constant term divided by the positive leading coefficient to be negative.,"Product of roots=(a²−4a)/2.
+For opposite signs,
+(a²−4a)/2<0
+⇒ a(a−4)<0
+⇒ 0<a<4.
+⇒ Correct option: B",PDF extracted
+90,"Let a>0, b>0 and c>0. Then both the roots of the equation ax²+bx+c=0",are real and negative,have negative real parts,are rational numbers,none,B,Class II & III,Nature of roots,3,Use the quadratic formula; the real parts are −b/(2a)<0 whether roots are real or complex.,14,visually checked,Use the quadratic formula and focus on the real part.,The real part of both roots is −b/(2a).,"Roots are
+x=[−b±√(b²−4ac)]/(2a).
+If the roots are real, both are negative because the numerator terms are negative.
+If they are complex, both have real part
+−b/(2a)<0
+since a,b>0.
+⇒ Both roots have negative real parts.
+⇒ Correct option: B",PDF extracted
+91,"For every x∈R, the polynomial x⁸−x⁵+x²−x+1 is",positive,never positive,positive as well as negative,negative,A,Class II & III,Identity / sign of polynomial,4,"Split into cases x≥1, −1<x<0, and x<0 and show every case is positive.",14,visually checked,Consider separate ranges of x.,"Use three cases: x<0, 0≤x≤1, and x≥1.","Let E=x⁸−x⁵+x²−x+1.
+For x<0, all terms are positive, so E>0.
+For 0≤x≤1, x²≥x⁵, hence
+E=x⁸+(x²−x⁵)+(1−x)>0.
+For x≥1,
+E=x⁵(x³−1)+(x−1)+1>0.
+Therefore E>0 for every x∈R.
+⇒ Correct option: A",PDF extracted; middle interval tightened for completeness
+92,"Let α and β be the roots of x²−x−1=0 with α>β. If aₙ=(αⁿ−βⁿ)/(α−β) for n≥1, then the value of (a₂₀₁₆−a₂₀₁₄)/a₂₀₁₅ is",−1,1,3,−3,B,Class II & III,Recurrence / symmetric roots,5,Use the recurrence aₙ=aₙ₋₁+aₙ₋₂ implied by α²=α+1 and β²=β+1.,14,source-text checked; visually checked; corrected transcription,Use the recurrence satisfied by α and β.,"From α²=α+1 and β²=β+1, derive the recurrence for aₙ.","Since α²=α+1 and β²=β+1,
+aₙ=aₙ₋₁+aₙ₋₂.
+Therefore
+a₂₀₁₆−a₂₀₁₄
+=(a₂₀₁₅+a₂₀₁₄)−a₂₀₁₄
+=a₂₀₁₅.
+Hence the required ratio is 1.
+⇒ Correct option: B",PDF extracted; visually checked against source expression
+93,If tan θ and sec θ are the roots of the equation ax²+bx+c=0 then,a³+b³+c³−3abc=0,a²−b²+2ac=0,a⁴+4ab²c−b⁴=0,none of these,C,Class II & III,Identity,5,Use sec²θ−tan²θ=1 together with Vieta.,14,visually checked,Use the identity sec²θ−tan²θ=1.,Express tan θ and sec θ through the Vieta sum and product.,"Let α=tanθ, β=secθ.
+Then β²−α²=1.
+From Vieta,
+α+β=−b/a,
+αβ=c/a.
+Thus
+(β+α)²(β−α)²=1.
+Now
+(β+α)²=b²/a²,
+(β−α)²=(α+β)²−4αβ
+=b²/a²−4c/a.
+Therefore
+(b²/a²)(b²/a²−4c/a)=1.
+Multiplying by a⁴:
+b⁴−4ab²c=a⁴.
+⇒ a⁴+4ab²c−b⁴=0.
+⇒ Correct option: C",PDF extracted
+94,"If a, b and c are not all equal and α and β be the roots of the equation ax²+bx+c=0, then the value of (1+α+α²)(1+β+β²) is (a,b,c∈R)",0,non-positive,positive,nothing can be said,C,Class II & III,Symmetric functions of roots,4,"Express the product in terms of a,b,c and rewrite it as a sum of squares.",14,visually checked,"Use Vieta to express the product in a,b,c.",Try to rewrite the resulting numerator as a sum of squares.,"α+β=−b/a,
+αβ=c/a.
+Expanding and simplifying,
+(1+α+α²)(1+β+β²)
+= [a²+b²+c²−ab−bc−ca]/a²
+= [(a−b)²+(b−c)²+(c−a)²]/(2a²).
+Since a,b,c are not all equal, the numerator is strictly positive.
+⇒ The value is positive.
+⇒ Correct option: C",PDF extracted
+95,"If P(x)=ax²+bx+c and Q(x)=−ax²+dx+c, where ac≠0, then P(x)·Q(x)=0 has",no real roots,exactly two real roots,at least two distinct real roots,none of these,C,Class II & III,Nature of roots,4,Compare the two discriminants: D₁=b²−4ac and D₂=d²+4ac; one is strictly positive because ac≠0.,15,visually checked,Compare the discriminants of P(x)=0 and Q(x)=0.,The signs of ac determine which discriminant is automatically positive.,"For P(x)=ax²+bx+c,
+D₁=b²−4ac.
+For Q(x)=−ax²+dx+c,
+D₂=d²+4ac.
+If ac>0, then D₂=d²+4ac>0.
+If ac<0, then D₁=b²−4ac>0.
+Thus at least one of the two quadratics has two distinct real roots.
+Therefore P(x)Q(x)=0 has at least two distinct real roots.
+⇒ Correct option: C",PDF extracted
